@@ -1,1 +1,31 @@
 # coverter_OPCUA_postgres
+
+{
+"db_name": "my_database",
+"db_user": "my_username",
+"db_password": "my_password",
+"db_host": "localhost",
+"db_port": "5432",
+"tb_name": "my_table",
+"tb_column_tag": "my_column_tag",
+"tb_column_id_tag": "my_column_id_tag",
+"tb_insert_id_tag": "my_insert_id_tag",
+"tb_insert_value": "my_insert_value",
+"tb_insert_timestamp": "my_insert_timestamp",
+"data_to_alpha": "true",
+"alpha_column_tag": "my_alpha_column_tag",
+"alpha_column_value": "my_alpha_column_value",
+"opc_master_host": "my_opc_master_host",
+"opc_slave_host": "my_opc_slave_host",
+"rate_5_min_cl_table": "my_rate_5_min_cl_table",
+"rate_5_min_cl_rate": "my_rate_5_min_cl_rate",
+"rate_1_hour_cl_table": "my_rate_1_hour_cl_table",
+"rate_1_hour_cl_rate": "my_rate_1_hour_cl_rate",
+"rate_1_day_cl_table": "my_rate_1_day_cl_table",
+"rate_1_day_cl_rate": "my_rate_1_day_cl_rate",
+"cl_value_volumn": "my_cl_value_volumn",
+"cl_column_tag": "my_cl_column_tag",
+"rate_data_to_alpha": "false",
+"time_zone": "Europe/Moscow",
+"path_log_file": "/var/log/1my_app.log"
+}
